@@ -1,0 +1,78 @@
+nohup: ignoring input
+Training model named:
+   mono_model
+Models and tensorboard events files are saved to:
+   /data/users/huasong/tmp
+Training is using:
+   cuda
+/data/users/huasong/.conda/envs/pytorch/lib/python3.6/site-packages/torchvision/transforms/transforms.py:258: UserWarning: Argument interpolation should be of type InterpolationMode instead of int. Please, use InterpolationMode enum.
+  "Argument interpolation should be of type InterpolationMode instead of int. "
+Using split:
+   eigen_zhou
+There are 39810 training items and 4424 validation items
+
+/data/users/huasong/.conda/envs/pytorch/lib/python3.6/site-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+Training
+/data/users/huasong/.conda/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py:3826: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  "Default grid_sample and affine_grid behavior has changed "
+epoch   0 | batch      0 | examples/s:   1.6 | loss: 0.16524 | time elapsed: 00h00m27s | time left: 00h00m00s
+epoch   0 | batch    250 | examples/s:  21.2 | loss: 0.12478 | time elapsed: 00h04m25s | time left: 19h31m52s
+epoch   0 | batch    500 | examples/s:  15.6 | loss: 0.14010 | time elapsed: 00h08m20s | time left: 18h19m00s
+epoch   0 | batch    750 | examples/s:  19.1 | loss: 0.12690 | time elapsed: 00h12m12s | time left: 17h47m59s
+epoch   0 | batch   1000 | examples/s:  18.8 | loss: 0.12521 | time elapsed: 00h16m05s | time left: 17h31m28s
+epoch   0 | batch   1250 | examples/s:  12.7 | loss: 0.12304 | time elapsed: 00h19m59s | time left: 17h20m53s
+epoch   0 | batch   1500 | examples/s:  17.4 | loss: 0.09837 | time elapsed: 00h23m55s | time left: 17h13m58s
+epoch   0 | batch   1750 | examples/s:  13.4 | loss: 0.10838 | time elapsed: 00h27m48s | time left: 17h06m28s
+epoch   0 | batch   2000 | examples/s:  12.6 | loss: 0.11837 | time elapsed: 00h31m40s | time left: 16h58m48s
+Training
+epoch   1 | batch    683 | examples/s:  16.5 | loss: 0.11631 | time elapsed: 01h01m32s | time left: 15h59m00s
+epoch   1 | batch   2683 | examples/s:  14.8 | loss: 0.09321 | time elapsed: 01h31m19s | time left: 15h18m24s
+Training
+epoch   2 | batch   1366 | examples/s:  14.1 | loss: 0.09432 | time elapsed: 02h01m21s | time left: 14h45m01s
+Training
+epoch   3 | batch     49 | examples/s:  12.8 | loss: 0.09754 | time elapsed: 02h32m58s | time left: 14h21m53s
+epoch   3 | batch   2049 | examples/s:  12.2 | loss: 0.09561 | time elapsed: 03h06m52s | time left: 14h06m12s
+Training
+epoch   4 | batch    732 | examples/s:  15.8 | loss: 0.08101 | time elapsed: 03h40m41s | time left: 13h45m05s
+epoch   4 | batch   2732 | examples/s:  12.5 | loss: 0.08470 | time elapsed: 04h14m29s | time left: 13h20m41s
+Training
+epoch   5 | batch   1415 | examples/s:  14.2 | loss: 0.09071 | time elapsed: 04h49m10s | time left: 12h56m36s
+Training
+epoch   6 | batch     98 | examples/s:  11.2 | loss: 0.08304 | time elapsed: 05h23m09s | time left: 12h28m45s
+epoch   6 | batch   2098 | examples/s:  11.0 | loss: 0.08899 | time elapsed: 05h57m10s | time left: 11h59m52s
+Training
+epoch   7 | batch    781 | examples/s:  10.7 | loss: 0.09154 | time elapsed: 06h31m13s | time left: 11h30m11s
+epoch   7 | batch   2781 | examples/s:  14.7 | loss: 0.07204 | time elapsed: 07h05m17s | time left: 10h59m50s
+Training
+epoch   8 | batch   1464 | examples/s:  12.7 | loss: 0.09025 | time elapsed: 07h39m33s | time left: 10h29m16s
+Training
+epoch   9 | batch    147 | examples/s:  11.4 | loss: 0.07360 | time elapsed: 08h13m35s | time left: 09h57m54s
+epoch   9 | batch   2147 | examples/s:  13.3 | loss: 0.08132 | time elapsed: 08h47m34s | time left: 09h26m09s
+Training
+epoch  10 | batch    830 | examples/s:  11.4 | loss: 0.07234 | time elapsed: 09h21m32s | time left: 08h54m07s
+epoch  10 | batch   2830 | examples/s:  12.6 | loss: 0.08095 | time elapsed: 09h55m08s | time left: 08h21m34s
+Training
+epoch  11 | batch   1513 | examples/s:  14.5 | loss: 0.07400 | time elapsed: 10h28m50s | time left: 07h48m59s
+Training
+epoch  12 | batch    196 | examples/s:  14.4 | loss: 0.09197 | time elapsed: 11h02m33s | time left: 07h16m17s
+epoch  12 | batch   2196 | examples/s:  14.4 | loss: 0.07774 | time elapsed: 11h35m05s | time left: 06h42m49s
+Training
+epoch  13 | batch    879 | examples/s:  10.0 | loss: 0.07758 | time elapsed: 12h08m15s | time left: 06h09m45s
+epoch  13 | batch   2879 | examples/s:  11.1 | loss: 0.07892 | time elapsed: 12h41m55s | time left: 05h36m54s
+Training
+epoch  14 | batch   1562 | examples/s:  10.7 | loss: 0.07519 | time elapsed: 13h14m05s | time left: 05h03m24s
+Training
+epoch  15 | batch    245 | examples/s:  13.0 | loss: 0.07714 | time elapsed: 13h45m39s | time left: 04h29m49s
+epoch  15 | batch   2245 | examples/s:  11.5 | loss: 0.07732 | time elapsed: 14h16m28s | time left: 03h56m11s
+Training
+epoch  16 | batch    928 | examples/s:   9.3 | loss: 0.08171 | time elapsed: 14h48m57s | time left: 03h23m08s
+epoch  16 | batch   2928 | examples/s:   9.9 | loss: 0.07877 | time elapsed: 15h22m45s | time left: 02h50m22s
+Training
+epoch  17 | batch   1611 | examples/s:  11.1 | loss: 0.06833 | time elapsed: 15h56m32s | time left: 02h17m32s
+Training
+epoch  18 | batch    294 | examples/s:  16.3 | loss: 0.07269 | time elapsed: 16h30m21s | time left: 01h44m38s
+epoch  18 | batch   2294 | examples/s:  10.5 | loss: 0.08075 | time elapsed: 17h03m52s | time left: 01h11m40s
+Training
+epoch  19 | batch    977 | examples/s:   8.4 | loss: 0.07670 | time elapsed: 17h37m29s | time left: 00h38m39s
+epoch  19 | batch   2977 | examples/s:  10.0 | loss: 0.06197 | time elapsed: 18h11m14s | time left: 00h05m37s
