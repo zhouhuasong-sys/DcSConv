@@ -1,9 +1,8 @@
-# Monodepth2
+# DcSConv
 
 This is the reference PyTorch implementation for training and testing depth estimation models using the method described in
 
 > **Adaptive Dept-converted-Scale Convolution for Self-supervised Monocular Depth Estimation**
->
 
 <p align="center">
   <img src="assets/teaser.gif" alt="example input output gif" width="600" />
