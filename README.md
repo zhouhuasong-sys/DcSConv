@@ -1,6 +1,6 @@
 # DcSConv
 
-This is the reference PyTorch implementation for training and testing depth estimation models using the method described in
+This is the reference PyTorch implementation for training and testing depth estimation models based on the Monodepth2 and CADepth baseline using the method described in
 
 > **Adaptive Dept-converted-Scale Convolution for Self-supervised Monocular Depth Estimation**
 
@@ -72,23 +72,16 @@ By default models and tensorboard event files are saved to `~/tmp/<model_name>`.
 This can be changed with the `--log_dir` flag.
 
 
-**Monocular training:**
+**Monocular training with depth-converted multiple scale convolution fusion:**
 ```shell
 python train.py --model_name mono_model
 ```
 
-**Stereo training:**
+**Monocular training with depth-converted-scale convolution:**
 
 Our code defaults to using Zhou's subsampled Eigen training data. For stereo-only training we have to specify that we want to use the full Eigen training set – see paper for details.
 ```shell
-python train.py --model_name stereo_model \
-  --frame_ids 0 --use_stereo --split eigen_full
-```
-
-**Monocular + stereo training:**
-```shell
-python train.py --model_name mono+stereo_model \
-  --frame_ids 0 -1 1 --use_stereo
+python train.py --model_name mono_model --deformable
 ```
 
 
@@ -99,14 +92,6 @@ You can specify which GPU to use with the `CUDA_VISIBLE_DEVICES` environment var
 ```shell
 CUDA_VISIBLE_DEVICES=2 python train.py --model_name mono_model
 ```
-
-All our experiments were performed on a single NVIDIA Titan Xp.
-
-| Training modality | Approximate GPU memory  | Approximate training time   |
-|-------------------|-------------------------|-----------------------------|
-| Mono              | 9GB                     | 12 hours                    |
-| Stereo            | 6GB                     | 8 hours                     |
-| Mono + Stereo     | 11GB                    | 15 hours                    |
 
 
 
